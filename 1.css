@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: url(clouds.jpg) no-repeat 0px 0px;
+    background-size: 100% 100%;
+}
+body{
+    display: flex;
+    margin-top:-30px;
+    justify-content: center;
+    height: 100%;
+}
+
+.box {
+    width: 350px;
+    background: rgba(255, 255, 255,0.4);
+    padding: 100px;
+    margin-top:4%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-left:80px;
+    margin-top:-200px;
+}
+
+.name span{
+    font-family: '楷体', sans-serif;
+    font-size:23px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left:60px;
+    margin-bottom:5px;
+}
+
+.bottom{
+
+    margin-left:-30px;
+    margin-bottom:50px;
+}
+
+.bottom p{
+    font-family: '楷体';
+    font-size:20px;
+    margin-top: 60px;
+    margin-bottom: -10px;
+    height: 40px;
+}
+
+.photo{
+    margin-left: -60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
