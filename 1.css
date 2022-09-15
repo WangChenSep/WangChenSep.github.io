@@ -1,3 +1,4 @@
+//页面主体
 html {
     height: 100%;
     width: 100%;
@@ -5,6 +6,7 @@ html {
     background: url(clouds.jpg) no-repeat 0px 0px;
     background-size: 100% 100%;
 }
+//body大容器
 body{
     display: flex;
     margin-top:-30px;
