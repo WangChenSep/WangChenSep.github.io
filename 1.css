@@ -1,131 +1,100 @@
-/*页面主体*/
 html {
-    /*height: 100%;*/
-    /*width: 100%;*/
     overflow: hidden;
-    /*!*background: url(123.jpg) no-repeat 0px 0px;*!*/
-    /*background-size: 100% 100%;*/
 }
-/*body大容器*/
 body{
-    /*display: flex;*/
-    /*margin-top:-30px;*/
-    /*justify-content: center;*/
     background: url(123.jpg) repeat -30px -30px;
-    /*margin: 0;*/
-    /*padding: 0;*/
     background-size: cover;
-    /*height: 100%;*/
 }
-/*body {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-
-/*    !*background: url(123.jpg) no-repeat 0px 0px;*!*/
-/*    background-size: cover;*/
-/*}*/
-/*盒子布局*/
-.lianxi {
-    /*width: 50px;*/
+/*左边容器*/
+.left-container {
+    width: 56vh;
+    height: 56vh;
+    margin-top: 12%;
+    margin-left: 2%;
     border-radius: 50%;
     background: rgba(197,239,247);
-    /*padding: 100px;*/
-    /*margin-top:0px;*/
-    width: 400px;
-    height: 400px;
-    margin-top: 180px;
-    margin-left: 3%;
-    /*margin-left: 12%;*/
-    /*background-color: darkgray;*/
-    /*text-align: center;*/
-    /*background: rgba( 0, 0, 0, 0.2);*/
-    /*border-radius: 50%;*/
-    /*padding-right: 20px;*/
-    /*padding-top: 20px;*/
 }
-
-.lianxi .photo{
-    margin-left: 23%;
-    margin-top: 25%;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+/*左边图片*/
+.left-container .photo{
+    width: 20vh;
+    height: 20vh;
     text-align: right;
+    margin-left: 23%;
+    margin-top: 29%;
+    border-radius: 50%;
 }
-.lianxi h1{
+/*左边标题*/
+.left-container h1{
     font-family: '楷体', sans-serif;
-    font-size: 35px;
+    text-align: center;
+    height: 6vh;
+    font-size: 5vh;
+    margin-top: 5vh;
+    margin-left: 10vh;
     color: rgb(73,42,42);
-    width: 80px;
-    margin-left: 70px;
-    margin-right: 10px;
 
 }
-.lianxi h2{
+/*左边标题*/
+.left-container h2{
     font-family: '楷体', sans-serif;
+    font-size: 4vh;
     text-align: center;
+    width: 20vh;
+    margin-left: 4.5vh;
     color: rgb(73,42,42);
-    height: 50px;
-    width: 170px;
-    font-size: 30px;
-    margin-left: 25px;
-    margin-right: 10px;
 }
-.lianxi span{
-    font-family: '楷体', serif;
-    font-size: 50px;
-    text-align: center;
-    display: block;
-    height: 80px;
-    width: 230px;
-}
-.xinxi{
+/*右边容器*/
+.right-container{
     position: absolute;
     top: 0;
     right: 0;
-    width: 400px;
-    height: 600px;
-    margin-top: 3%;
+    width: 52vh;
+    height: 80vh;
+    margin-top: 3.5%;
     margin-right: 2%;
+    border-radius: 10%;
+    padding-right: 5vh;
+    padding-top: 5vh;
+    padding-left: 5vh;
     background: rgba(197,239,247);
-    border-radius: 5%;
-    padding-right: 40px;
-    padding-top: 20px;
-    padding-left: 40px;
 }
-.xinxi p{
+/*右边标题*/
+.right-container p{
     font-family: '楷体', sans-serif;
-    font-size: 40px;
-    color: rgb(73,42,42);
-    /*height: 50px;*/
+    font-weight: bold;
+    font-size: 7vh;
     text-align: center;
-}
-
-.xinxi h1{
-    height: 50px;
-    width: 150px;
-    margin-left: -3px;
-    font-size: 20px;
-    color: rgb(73,42,42);
-}
-.xinxi span{
-    font-family: '楷体', sans-serif;
-    font-size:35px;
-    height: 50px;
-    width: 400px;
-    text-align: center;
-    color: rgb(73,42,42);
-    /*height: 50px;*/
-    margin-top: 40px;
-    /*margin-left:-50px;*/
-    /*margin-bottom:5px;*/
-}
-.xinxi .pre{
-    font-family: '楷体', sans-serif;
-    font-size:25px;
-    margin-left: -3px;
     height: 30px;
-    width: 100px;
+    margin-top: 1vh;
+    color: rgb(73,97,155);
+}
+/*左边标题*/
+.right-container h1{
+    font-family: '楷体', sans-serif;
+    font-size: 4vh;
+    font-weight:900;
+    height: 5vh;
+    width: 25vh;
+    margin-top: 3vh;
+    color: rgb(73,97,155);
+}
+/*左边文本*/
+.right-container pre{
+    font-family: '楷体', sans-serif;
+    font-size: 3.1vh;
+    font-weight: 600;
+    height: 5vh;
+    color: rgb(73,42,42);
+}
+/*左边文本*/
+.right-container span{
+    font-family: '楷体', sans-serif;
+    font-size:3.2vh;
+    font-weight: 600;
+    height:4vh;
+    display: block;
+    text-align: center;
+    margin-top: 2vw;
     color: rgb(73,42,42);
 }
 
