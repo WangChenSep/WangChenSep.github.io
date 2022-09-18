@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html {
     overflow: hidden;
 }
@@ -10,7 +14,7 @@ body{
     width: 56vh;
     height: 56vh;
     margin-top: 12%;
-    margin-left: 2%;
+    margin-left: 2.5%;
     border-radius: 50%;
     background: rgba(197,239,247);
 }
@@ -27,7 +31,7 @@ body{
 .left-container h1{
     font-family: '楷体', sans-serif;
     text-align: center;
-    height: 6vh;
+    height: 9.5vh;
     font-size: 5vh;
     margin-top: 5vh;
     margin-left: 10vh;
@@ -64,7 +68,7 @@ body{
     font-weight: bold;
     font-size: 7vh;
     text-align: center;
-    height: 30px;
+    height: 80px;
     margin-top: 1vh;
     color: rgb(73,97,155);
 }
@@ -73,7 +77,7 @@ body{
     font-family: '楷体', sans-serif;
     font-size: 4vh;
     font-weight:900;
-    height: 5vh;
+    height: 8vh;
     width: 25vh;
     margin-top: 3vh;
     color: rgb(73,97,155);
@@ -83,18 +87,19 @@ body{
     font-family: '楷体', sans-serif;
     font-size: 3.1vh;
     font-weight: 600;
-    height: 5vh;
+    height: 8.3vh;
     color: rgb(73,42,42);
 }
 /*左边文本*/
 .right-container span{
     font-family: '楷体', sans-serif;
-    font-size:3.2vh;
+    font-size:3.3vh;
     font-weight: 600;
-    height:4vh;
+    height:3vh;
     display: block;
     text-align: center;
-    margin-top: 2vw;
+    margin-bottom: 6vh;
+    margin-top: 1vh;
     color: rgb(73,42,42);
 }
 
