@@ -199,7 +199,6 @@ html,body {
 .bottom-simple{
     width:1100px;
     height:200px;
-     /*background-color: orange; */
     margin:0 auto;
     display: flex; 
     justify-content: space-around;
@@ -229,7 +228,6 @@ html,body {
 .bottom-img img{
     width:100%;
     height:100%;
-    /*border-radius: 50%;*/
 }
 
 /* 学习介绍 */
@@ -245,7 +243,6 @@ html,body {
     margin:0 auto;
     font-size: 35px;
     padding-top:90px;
-    /*margin-left: 635px;*/
 }
 /*中部*/
 .middle-container{
@@ -289,7 +286,6 @@ html,body {
     width:50px;
     height: 20px;
     display: block;
-     /*background-color: red; */
     font-size: 25px;
     margin-bottom:40px;
 }
